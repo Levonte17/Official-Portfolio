@@ -1,6 +1,10 @@
 function Header(props) {
 
-    return <h1> The Digitial Expert</h1>;
+    return (
+<div className="header">
+            <h1></h1>
+</div>
+    )
 }
     
 export default Header;
