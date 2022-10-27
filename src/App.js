@@ -23,8 +23,8 @@ import Dashboard from './components/Dashboard';
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Header />
+      <Nav />
       <About />
       <Experience />
       <Deals />
