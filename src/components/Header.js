@@ -1,12 +1,12 @@
 //import img from '../assets/'
 import{Link} from 'react-router-dom';
-import{ bgvid1 } from '..assets/bgvid1.mp4';
+import bgvid1  from '../assets/bgvid1.mp4';
 function Header(props) {
     
     return (
-<div className="header">
-
-        <video> src={bgvid1} autoplay loop muted </video>
+<div className="main">
+        <video src={bgvid1} autoPlay loop muted />
+    <div className='header'>
 
 
             <h1> 
@@ -32,7 +32,7 @@ function Header(props) {
             </Link>
         </button>
             <br/><br/>
-            <br/><br/>
+
         <button>
             <Link to='Marketing'>
                 <div> Business Essentials</div>
@@ -47,7 +47,8 @@ function Header(props) {
             <br/> <br/>
             <br/><br/>
             <br/><br/>
-            </div>
+        </div>
+    </div>
 </div>
     )
 };

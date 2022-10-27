@@ -11,12 +11,13 @@ body {
   background-color: white;
   
 }
+
 button{
   border-radius: 25%;
   padding: 5% 5% 5%;
-  box-shadow: 5px 5px 5px goldenrod;
+  box-shadow: 5px 5px 5px black;
   background-color: rgb(124, 86, 35);
-  color: goldenrod;
+  color: black;
 }
 .app{
   scroll-behavior: smooth;
@@ -31,7 +32,7 @@ button{
 }
 
 .nav a{
-  color: goldenrod;
+  color: black;
   text-decoration: none;
   padding: 0 1rem;
   font-size: 200%;
@@ -40,33 +41,64 @@ button{
 }
 
 .header{
+  background-image: url(../src/assets/bg2.jpeg);
   background-position: center;
-  background-repeat: inherit;
-  background-color: rgb(124, 86, 35);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
   
+}
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000cc;
 }
 .header h1{
   font-size: 7rem;
   font-weight: 100;
   font-family: serif;
-  color: goldenrod;
+  color: black;
   margin-top: 0;
 }
 .header2 a{
 text-decoration: none;
   justify-content: center;
   font-size: xx-large;
-  color: goldenrod;
+  color: black;
 
+}
+.image{
+  padding-top: 50%;
 }
 .header2:hover
 a:hover,
 button:hover{
-  text-shadow: 5% 5% 5% goldenrod;
-  background-color: goldenrod;
+  text-shadow: 5% 5% 5% black;
+  background-color: black;
   color: rgb(124, 86, 35);
   padding: 5% 5% 5%;
   border-radius: 25%;
+  box-shadow: 15px 15px 15px rgb(124, 86, 35);
+
 }
 Link{
   text-decoration: none;
@@ -76,11 +108,11 @@ Link{
 }
 
 h1,h2{
-  color: goldenrod;
+  color: black;
   text-shadow: 5% 5% 5%;
 }
 h2{
-  color: goldenrod;
+  color: black;
   font-size: xx-large;
 }
 
