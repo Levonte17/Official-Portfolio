@@ -1,4 +1,4 @@
-//import img from '../assets/'
+
 import{Link} from 'react-router-dom';
 import bgvid1  from '../assets/bgvid1.mp4';
 function Header(props) {
@@ -6,7 +6,7 @@ function Header(props) {
     return (
 <div className="main">
         <video src={bgvid1} autoPlay loop muted />
-    <div className='header'>
+    <div className='header'> 
 
 
             <h1> 
@@ -45,8 +45,7 @@ function Header(props) {
             </Link>
         </button>
             <br/> <br/>
-            <br/><br/>
-            <br/><br/>
+            
         </div>
     </div>
 </div>
