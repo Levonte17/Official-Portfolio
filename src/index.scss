@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: white;
+  background-image: url('../src/assets/bg.jpeg');
   
 }
 
@@ -16,8 +16,8 @@ button{
   padding: 5% 5% 5%;
   box-shadow: 5px 5px 5px white;
   background-color: rgb(124, 86, 35);
-  color: white;
 }
+
 .app{
   scroll-behavior: smooth;
   width: 100%;
@@ -26,12 +26,11 @@ button{
 .nav{
   display: flex;
   justify-content: center;
-  background-color: rgb(124, 86, 35);
-  
+  background-image: url('../src/assets/bg.jpeg');
 }
 
 .nav a{
-  color: white;
+  color: rgb(124, 86, 35);  
   text-decoration: none;
   font-size: 200%;
   margin-left: 1%;
@@ -87,10 +86,17 @@ a:hover,
 button:hover{
   text-shadow: 5% 5% 5% white;
   background-color: white;
-  color: rgb(124, 86, 35);
+  color: goldenrod;
   padding: 5% 5% 5%;
   border-radius: 25%;
   box-shadow: 15px 15px 15px rgb(124, 86, 35);
+
+}
+.nav:hover
+a:hover{
+  text-shadow: 15px 15px 15px goldenrod;
+  text-shadow: 20% 20% 20% goldenrod;
+  color: goldenrod;
 
 }
 .image{

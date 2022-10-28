@@ -1,10 +1,12 @@
-import about from '../assets/about.jpeg';
+import one from './assets/one.jpeg';
 
 function About(props) {
     return(
         <div className="image">
-            <image src={about} />
-        </div>
+            <h1>about</h1>
+            <div className='ab'>
+            <image src={one} />
+            </div></div>
     );
 }
 
