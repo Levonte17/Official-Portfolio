@@ -1,5 +1,5 @@
 import one from '../assets/one.jpeg';
-import abmo from '../assets/abmo.jpeg';
+import abmo from '../assets/abmo.mp4';
 import React from 'react';
 
 function About(props) {
@@ -7,8 +7,11 @@ function About(props) {
         <div className="image">
             <div className='ab'>
             <img src={one} />
-            <video src={abmo} />
-            </div></div>
+        <div className='abvideo'>
+            <video src={abmo} alt="about" autoPlay loop muted />
+        </div>
+    </div>
+</div>
     );
 }
 
