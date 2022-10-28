@@ -22,7 +22,7 @@ function Nav(props) {
             </Link>
 
             <Link to='Resume'>
-                <div>Resumes</div>
+                <div>Portfolio</div>
             </Link>
 
             <Link to='Marketing'>

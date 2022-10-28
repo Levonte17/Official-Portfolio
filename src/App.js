@@ -25,6 +25,7 @@ function App() {
     <div className="App">
       <Header />
       <Nav />
+      <Dashboard />
       <About />
       <Experience />
       <Deals />
