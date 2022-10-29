@@ -4,13 +4,17 @@ import React from 'react';
 
 function About(props) {
     return(
+        
         <div className="image">
-            <div className='ab'>
-            <img src={one} />
-        <div className='abvideo'>
-            <video src={abmo} alt="about" autoPlay loop muted />
-        </div>
-    </div>
+            
+            <h1>
+                <img src={one} />
+            </h1>
+            <h1>
+                <video src={abmo} alt="about" autoPlay loop muted />
+            </h1>
+          
+    
 </div>
     );
 }

@@ -3,9 +3,10 @@ function Nav(props) {
 
     return (
         
-        <nav className="nav">            
+        <nav className="nav"> 
+        <br/>           
 
-<Link to='/'>
+<Link to='home'>
             <div>Home</div>
             </Link>
 
@@ -32,6 +33,7 @@ function Nav(props) {
             <Link to='Deals'>
                 <div>Packages</div>
             </Link>
+            <br/><br/>           
 
 
         </nav>
