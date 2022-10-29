@@ -1,6 +1,6 @@
-import bgvid1  from '../assets/website.mp4';
-import one from '../assets/second.jpeg';
-
+import website  from '../assets/website.mp4';
+import second from '../assets/second.jpeg';
+import react from 'react';
 function Experience(props) {
     return(
         <div className="image">

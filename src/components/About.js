@@ -8,10 +8,10 @@ function About(props) {
         <div className="image">
             
             <h1>
-                <img src={one} />
+                <video src={abmo} alt="about" autoPlay loop muted />
             </h1>
             <h1>
-                <video src={abmo} alt="about" autoPlay loop muted />
+                <img src={one} />
             </h1>
           
     
