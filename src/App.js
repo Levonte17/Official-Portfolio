@@ -2,7 +2,7 @@
 import './index.scss';
 //PAGES
 import Home from './pages/Home';
-import Essentials from './pages/Essential';
+import Essential from './pages/Essential';
 import Sports from './pages/Sports';
 import Website from './pages/Website';
 import Blogs from './pages/Blogs';
@@ -29,12 +29,11 @@ function App() {
       <About />
       <Experience />
       <Essential />
-      <Website />
       <Contact />
       <Footer />
       
      <Routes>
-        <Route path='/Home' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/essential' element={<Essential/>}/>
         <Route path='/sports' element={<Sports/>}/>
         <Route path='/website' element={<Website/>}/>
