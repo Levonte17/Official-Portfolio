@@ -12,9 +12,7 @@ function About(props) {
             </h1>
             <h1>
                 <img src={one} />
-            </h1>
-          
-    
+            </h1>      
 </div>
     );
 }
