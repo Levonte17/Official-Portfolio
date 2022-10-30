@@ -1,4 +1,4 @@
-/import bs from '../assets/bs.jpeg';
+import bs from '../assets/bs.jpeg';
 import bsv from '../assets/bsv.mp4';
 import React from 'react';
 
