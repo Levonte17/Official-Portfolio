@@ -15,10 +15,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
 
-
-
 import{Routes, Route} from 'react-router-dom';
 import Dashboard from './components/Dashboard';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -29,12 +28,14 @@ function App() {
       <About />
       <Experience />
       <Essential />
+      <Content />
       <Contact />
       <Footer />
       
      <Routes>
         <Route path='/home' element={<Home/>}/>
         <Route path='/essential' element={<Essential/>}/>
+        <Route path='/Content' element={<Content/>}/>
         <Route path='/sports' element={<Sports/>}/>
         <Route path='/website' element={<Website/>}/>
         <Route path='/blogs' element={<Blogs/>}/>

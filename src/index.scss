@@ -121,6 +121,12 @@ h2{
   color: white;
   font-size: xx-large;
 }
+.allcont img {
+  width: 25%;
+  height: 35%;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px black;
+}
 
 @media screen and (max-width: 1024px) {
   .nav a{
