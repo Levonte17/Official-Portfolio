@@ -11,9 +11,7 @@ function Websites(props) {
         <div className="allcont">
             
             <h1>
-            <a href="https://www.linkedin.com/in/fullstack-levonte-larry/">
-                <img src={li} />
-            </a>
+            <img src={li} />
             </h1>
             <h1>
                 <img src={email} />

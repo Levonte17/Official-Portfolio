@@ -14,7 +14,7 @@ function Nav(props) {
             <div>Sports</div>
             </Link>
 
-            <Link to='Website'>
+            <Link to='Websites'>
             <div>Websites</div>
             </Link>
 
