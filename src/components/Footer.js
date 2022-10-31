@@ -1,10 +1,10 @@
 function Footer(props) {
     
     return(
-        <footer className="footer">
-        <p>
+        <footer className="foot">
+        <h1>
             Copyright &copy; All Rights Reserved Digital Investors Hub 
-        </p>
+        </h1>
         </footer>
     )
 };

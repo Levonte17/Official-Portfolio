@@ -30,12 +30,12 @@ function App() {
       <Dashboard />
       <About />
       <Experience />
+      <Websites />
       <Essential />
       <Content />
       <Contact />
       <Allcont />
       <Footer />
-      <Websites />
       
      <Routes>
         <Route path='/Allcont' element={<Allcont/>}/>
