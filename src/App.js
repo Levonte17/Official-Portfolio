@@ -5,7 +5,7 @@ import{Routes, Route} from 'react-router-dom';
 //PAGES
 import Home from './pages/Home';
 import Essential from './pages/Essential';
-import Website from './pages/Website';
+import Website from './components/Website';
 import Blogs from './pages/Blogs';
 import Allcont from './pages/Allcont';
 import Websites from './pages/Websites';
@@ -18,7 +18,7 @@ import Show from './pages/Show';
 import Contact from './components/Contact';
 import About from './components/About';
 import Nav from './components/Nav';
-import Paginate from './components/Paginate';
+import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
@@ -32,6 +32,7 @@ function App() {
       <Nav />
       <Dashboard />
       <About />
+      <Sidebar />
       <Experience />
       <Essential />
       <Content />
