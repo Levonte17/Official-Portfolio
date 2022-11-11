@@ -5,11 +5,14 @@ import{Routes, Route} from 'react-router-dom';
 //PAGES
 import Home from './pages/Home';
 import Essential from './pages/Essential';
-import Sports from './pages/Sports';
 import Website from './pages/Website';
 import Blogs from './pages/Blogs';
 import Allcont from './pages/Allcont';
 import Websites from './pages/Websites';
+import AddPost from './pages/AddPost';
+import Feed from './pages/Feed';
+import Plus from './pages/Plus';
+import Show from './pages/Show';
 
 //COMPONENTS
 import Contact from './components/Contact';
@@ -21,7 +24,6 @@ import Experience from './components/Experience';
 import Content from './components/Content';
 import Dashboard from './components/Dashboard';
 
-
 function App() {
   return (
     <div className="App">
@@ -30,7 +32,6 @@ function App() {
       <Dashboard />
       <About />
       <Experience />
-      <Websites />
       <Essential />
       <Content />
       <Contact />
@@ -47,6 +48,10 @@ function App() {
         <Route path='/website' element={<Website/>}/>
         <Route path='/blogs' element={<Blogs/>}/>
         <Route path='/Contact' element={<Contact />}/>
+        <Route path='/AddPost' element={<AddPost />}/>
+        <Route path='/Feed' element={<Feed />}/>
+        <Route path='/Show' element={<Show />}/>
+        <Route path='/Plus' element={<Plus />}/>
      </Routes>
     </div>
   );
