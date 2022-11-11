@@ -18,6 +18,7 @@ import Show from './pages/Show';
 import Contact from './components/Contact';
 import About from './components/About';
 import Nav from './components/Nav';
+import Paginate from './components/Paginate';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
