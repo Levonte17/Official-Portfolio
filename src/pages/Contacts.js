@@ -12,7 +12,6 @@ function Allcont(props) {
         <div className="allcont">
             
             <h1>CONTACT US</h1>
-    
             <a href="https://www.linkedin.com/in/fullstack-levonte-larry/">
                 <img src={li} />
             </a>
