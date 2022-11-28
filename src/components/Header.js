@@ -4,7 +4,12 @@ function Header(props) {
     
     return (
 <div className="main">
-        <video src={bgvid1} autoPlay loop muted />
+        <video src={bgvid1} 
+            autoPlay 
+            playsInline
+            loop
+            muted
+        />
     </div>
     )
 };

@@ -1,42 +1,39 @@
 
-import sp from '../assets/sp.jpeg';
-import cre from '../assets/cre.jpeg';
-import aa from '../assets/aa.jpeg';
-import ta from '../assets/ta.jpeg';
-import ct from '../assets/ct.jpeg';
-import cw from '../assets/cw.jpeg';
-import ek from '../assets/ek.jpeg';
+import samp from '../assets/samp.gif';
+import barber from '../assets/barber.gif';
+import e from '../assets/e.gif';
+import colty from '../assets/colty.gif';
+import humble from '../assets/humble.gif';
 import React from 'react';
 
 function Websites(props) {
     return(
-    
       <div className=''>
         <div className="allcont">
+    <h1>
+        Websites And Features
+    </h1>
             
-            <a href="https://eskeezy-1.herokuapp.com/">
-                <img src={ek} />
-            </a>
-            
-            <a href="">
-                <img src={ct} />
+            <a href="/websites">
+                <img alt='img' src={humble} />
             </a>
 
-            <a href="https://sapmpfitness.herokuapp.com/">
-                <img src={sp} />
+            <a href="/websites">
+                <img alt='img' src={samp} />
             </a>
 
-            <a href="">
-                <img src={ta} />
+            <a href="/websites">
+                <img alt='img' src={barber} />
             </a>
 
-            <a>
-                <img src={aa} />
+            <a href="/websites">
+                <img alt='img' src={colty} />
             </a>
 
-            <a>
-                <img src={cre} />
+            <a href="/websites">
+                <img alt='img' src={e} />
             </a>
+
         
         
         

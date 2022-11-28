@@ -6,32 +6,28 @@ function Nav(props) {
         <nav className="nav"> 
         <br/>           
 
-<Link to='home'>
-            <div>Home</div>
+            <Link to=''>
+                <div>HOME</div>
             </Link>
 
-            <Link to='Sports' >
-            <div>Sports</div>
+            <Link to='/Contact-us' >
+            <div>CONTACT</div>
             </Link>
 
             <Link to='Websites'>
-            <div>Websites</div>
+                <div>WEBSITES</div>
             </Link>
 
-            <Link to='Blogs'>
-                <div>Blogs</div>
+            <Link to='/corprate'>
+                <div>CORPRATE</div>
+            </Link>
+            
+            <Link to='/blogs'>
+                <div>BLOGS</div>
             </Link>
 
-            <Link to='Resume'>
-                <div>Portfolio</div>
-            </Link>
-
-            <Link to='Marketing'>
-                <div>Marketing</div>
-            </Link>
-
-            <Link to='Deals'>
-                <div>Packages</div>
+            <Link to='/plus'>
+                <div>PREMIUM</div>
             </Link>
             <br/><br/>           
 

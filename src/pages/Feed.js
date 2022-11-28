@@ -1,11 +1,14 @@
-
-
+import Dashboard from '../components/Dashboard';
+import Boards from '../pages/Boards';
 
 function Feed(props){
 
     return(
-            <h1>Feed</h1>
-    
+      <div className='home'>
+            <Dashboard />
+            <Boards />
+
+      </div>
     )
 };
 

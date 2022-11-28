@@ -3,7 +3,7 @@
 function Plus(props){
 
     return(
-            <h1>Plus</h1>
+            <h1>Premium Subscription</h1>
     
     )
 };

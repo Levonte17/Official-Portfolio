@@ -8,40 +8,50 @@ function Dashboard(props) {
 
             <h1> 
                 Digital Investors Hub 
-            
-
-            <h2> 
-                Your #1 Source For Entrepreneurs 
-                     And Start Up Businesses
-            </h2> 
             </h1>
-    <div className='header2'>
+            <h2> 
+                #1 Source For
+            <br/>
+                 <strong> 
+                    ENTREPRENEURS 
+                 </strong> 
+                 <br/>
+                 and 
+                 <br/>
+                 <strong>
+                    START UP BUSINESSES
+                </strong>
+            </h2> 
 
-        <button>
+
+    <div className='header2'>
+        <button className='dash'>
             <Link to='Website'>
-            <div>Create A Website</div>
+            <p>Create a Website</p>
             </Link>
         </button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button>
+        <button className='dash'>
             <Link to='Deals'>
-                <div> Start A Business</div>
+                <p> Start a Business</p>
             </Link>
         </button>
             <br/><br/>
 
-        <button>
+        <button className='dash'>
             <Link to='Marketing'>
-                <div> Business Essentials</div>
+                <p> Business Growth</p>
             </Link>
         </button>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button> 
+        <button className='dash'> 
             <Link to='Blogs'>
-                <div>Here To Network</div>
+                <p>Here To Learn</p>
             </Link>
         </button>
+        <div className='header3'>
         <br/><br/>
+        </div>
         </div>
 </div>
     )

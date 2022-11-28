@@ -1,13 +1,11 @@
 
-
-
-function Comment(props){
-
-    return(
-            
-            <h1>Comment</h1>
-    
-    )
-};
-
-export default Comment;
+function Comment({ comment, createdTime }) {
+    return (
+      <div className='comment'>
+        <h3>"{comment.body}"</h3>
+      </div>
+    );
+  }
+  
+  export default Comment;
+  
