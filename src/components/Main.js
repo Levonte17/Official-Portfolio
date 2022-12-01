@@ -9,13 +9,13 @@ import EssentialP from '../pages/EssentialP';
 import Contacts from '../pages/Contacts';
 import Plus from '../pages/Plus';
 
-function Main(props) {
+function Main({user}) {
     
     return(
         <main>
 
 <Routes>
-     <Route path='/' element={<Feed  />}/>
+        <Route path='/' element={<Feed  />}/>
      <Route path='/contact-us' element={<Contacts/>}/>
      <Route path='/Websites' element={<Websites/>}/>
      <Route path='/blogs' element={<Blog/>}/>

@@ -14,16 +14,16 @@ function Websites(props) {
         Websites And Features
     </h1>
             
-            <a href="/websites">
-                <img alt='img' src={humble} />
-            </a>
-
-            <a href="/websites">
+            <a href="https://sampfitness.netlify.app">
                 <img alt='img' src={samp} />
             </a>
+            
+            <a href="https://brushcutz.netlify.app">
+                <img alt='img' src={barber} />
+            </a>
 
             <a href="/websites">
-                <img alt='img' src={barber} />
+                <img alt='img' src={humble} />
             </a>
 
             <a href="/websites">
