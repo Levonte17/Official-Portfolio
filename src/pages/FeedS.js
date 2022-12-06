@@ -20,7 +20,8 @@ function FeedS({user}) {
   const [feed, setFeed] = useState(null);
 const getDataRef = useRef(null);
 
-const API_URL = 'http://localhost:4003/api/post';
+//const API_URL = 'http://localhost:4003/api/post';
+const API_URL = 'https://dih-api.adaptable.app/api/post';
 
 const getData = async () => {
   try {

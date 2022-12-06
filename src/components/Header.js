@@ -11,9 +11,13 @@ function Header(props) {
 <h2> 
     #1 Source For
 <br/>
+<br/>
+
      <strong> 
         ENTREPRENEURS 
      </strong> 
+     <br/>
+     DIVERSE LEARNING 
      <br/>
      and 
      <br/>
