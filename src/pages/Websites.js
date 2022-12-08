@@ -14,24 +14,25 @@ function Websites(props) {
         Websites And Features
     </h1>
             
-            <a href="https://sampfitness.netlify.app">
+            <a className='img' href="https://sampfitness.netlify.app">
                 <img alt='img' src={samp} />
             </a>
             
-            <a href="https://brushcutz.netlify.app">
+            <a className='img' href="https://brushcutz.netlify.app">
                 <img alt='img' src={barber} />
             </a>
 
-            <a href="/websites">
+            <a className='img' href="https://humbleme.netlify.app">
                 <img alt='img' src={humble} />
             </a>
 
-            <a href="/websites">
-                <img alt='img' src={colty} />
+            <a className='img' href="https://ekustoms.adaptable.app/">
+                <img alt='img' src={e} />
             </a>
 
-            <a href="/websites">
-                <img alt='img' src={e} />
+
+            <a className='img' href="https://humbleme.netlify.app">
+                <img alt='img' src={colty} />
             </a>
 
         
