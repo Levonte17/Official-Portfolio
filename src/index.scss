@@ -116,9 +116,7 @@ strong{
   text-shadow: 5% 5% 5% white;
   background-color: white;
   color: goldenrod;
-  padding: 5% 5% 5%;
-  box-shadow: 15px 15px 15px rgb(124, 86, 35);
-  
+  padding: 5% 5% 5%;  
 }
 .red{
   color: red;
@@ -209,9 +207,10 @@ h2{
 }
 .allcont img:hover {
   text-align: center;
-  width: 26%;
-  height: 26%;
-
+  width: 25%;
+  height: 25%;
+  background-color: tan;
+  padding: 2% 2% 2%;
 }
 strong{
   color: rgb(124, 86, 35);
@@ -288,7 +287,57 @@ justify-content: center;
   text-align: right;
   width: 40%;
 }
+////////// BLOGS //////////////////////////////////
+.imgm{
+  width: 50%;
+  height: 50%;
+}
+p{
+  font-weight: 100;
+}
+////////// MODULE //////////////////////////////////
+.module{
+  background-image: url('./assets/modulebg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+.module h1{
+  font-size: 4rem;
+  color: black;
+  text-shadow: 3px 3px 3px yellowgreen;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.module h2{
+  font-size: 3rem;
+  color: black;
+  text-shadow: 3px 3px 3px black;
 
+}
+.module h3{
+  font-size: x-large;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+
+}
+.module p{
+  font-size: x-large;
+  box-shadow: 10px 10px 10px black;
+  width: 50%;
+  padding: 2% 2% 2%;
+  margin-left: 25%;
+
+}
+.mod{
+  width: 55%;
+  height: 40%;
+}
+
+//////////MEDIA //////////////////////////////////
 @media screen and (max-width: 1024px) {
   .nav a{
     width: var(--nav-width-md);
