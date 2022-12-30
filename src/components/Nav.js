@@ -1,32 +1,32 @@
 import{Link} from 'react-router-dom';
-function Nav(props) {
 
+function Nav(props) {
     return (
         
         <nav className="nav"> 
         <br/>           
 
-            <Link to=''>
+            <Link to='' className="nav">
                 <div>HOME</div>
             </Link>
 
-            <Link to='/Contact-us' >
+            <Link to='/Contact-us' className="nav">
             <div>CONTACT</div>
             </Link>
 
-            <Link to='Websites'>
+            <Link to='Websites' className="nav">
                 <div>WEBSITES</div>
             </Link>
 
-            <Link to='/corprate'>
+            <Link to='/corprate' className="nav">
                 <div>CORPRATE</div>
             </Link>
             
-            <Link to='/blogs'>
+            <Link to='/blogs' className="nav">
                 <div>BLOGS</div>
             </Link>
 
-            <Link to='/plus'>
+            <Link to='/plus' className="nav">
                 <div>PREMIUM</div>
             </Link>
             <br/><br/>           

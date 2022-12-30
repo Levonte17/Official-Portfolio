@@ -1,6 +1,8 @@
-import Dashboard from '../components/Dashboard';
 import Header from '../components/Header';
-import Security from '../components/Security';
+import Create from '../components/Create';
+import Inspire from '../components/Inspire';
+import Books from '../components/Books';
+import Locard from '../components/Locard';
 
 function Home(props) {
 //HIDING DATA
@@ -10,8 +12,10 @@ function Home(props) {
   return (
     <div className='feed-container'>
             <Header />
-            <Dashboard />
-            <Security />
+            <Create />
+            <Inspire />
+            <Locard />
+            <Books />
       </div>
     )
 };
