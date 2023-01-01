@@ -43,7 +43,7 @@ function Locard(props) {
               - Get Your Cards Sent FREE of shipping
               <br/>
               <br/>
-              - QR Code Generator for easy customers
+              - QR Code Generator for easy customer
               convience and availability
               <br/>
               <br/>
