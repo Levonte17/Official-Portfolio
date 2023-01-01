@@ -1,7 +1,6 @@
 import { login, logout } from '../Firebase';
 
 
-
 function Sidebar({user}){
 
     return(

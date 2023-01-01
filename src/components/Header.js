@@ -25,7 +25,6 @@ function Header(props) {
         START UP BUSINESSES
     </strong>
 </h2> 
-
 </div>
 
     )
