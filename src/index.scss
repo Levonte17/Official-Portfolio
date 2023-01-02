@@ -235,7 +235,7 @@ a{
     font-size: 4rem;
     @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
     font-family: 'Anton', sans-serif;
-
+    
   }
   p{
     color: rgb(124, 86, 35);
@@ -320,7 +320,7 @@ width: 100%;
 ////////// INSPIRE //////////////////////////////////
 .inspire{
   background-color:rgba(73, 44, 4, 0.759);
-  ;
+
   h1{
     color: tan;
     text-shadow: 3px 3px 3px rgb(124, 86, 35);
@@ -394,7 +394,8 @@ p{
   display: flex;
   text-align: left;
   width: 75%;
-  
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+  font-family: 'Oswald', sans-serif;
   .creimg{
     width: 35%;
     justify-content: flex-start;
@@ -495,7 +496,7 @@ Link{
       width: 100%;
     } 
     h1{
-      text-shadow: 2px 2px 2px tan;
+      text-shadow: 0px 0px 0px rgb(124, 86, 35);;
       text-align: center;
       padding-top: 1%;
       width: 100%;
@@ -518,8 +519,8 @@ Link{
     }
     
     h1{
-      color: tan;
-      text-shadow: 3px 3px 3px rgb(124, 86, 35);
+      color: rgb(124, 86, 35);;
+      text-shadow: 0px 0px 0px rgb(124, 86, 35);
       font-size: 4rem;
     }
   }
