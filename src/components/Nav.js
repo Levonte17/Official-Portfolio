@@ -1,4 +1,5 @@
 import{Link} from 'react-router-dom';
+import { FaHome } from "react-icons/fa";
 
 function Nav(props) {
     return (
@@ -6,16 +7,27 @@ function Nav(props) {
         <nav className="nav"> 
         <br/>           
 
-            <Link to='' className="nav">
-                <div>HOME</div>
+            <Link to="/">
+                <div className='nav-logo'>
+                    <FaHome />
+                </div>
             </Link>
 
-            <Link to='Websites' className="nav">
+            <Link to='Websites' className="nav1">
                 <div>WEBSITES</div>
             </Link>
             
-            <Link to='/blogs' className="nav">
-                <div>BLOGS</div>
+            <Link to='/blogs' className="nav1">
+                <div>STORIES</div>
+            </Link>
+
+            <Link to='/essentials' className="nav1">
+                <div>BUSINESS</div>
+            </Link>
+            
+            
+            <Link to='/blogs' className="nav1">
+                <div>LEARN</div>
             </Link>
 
             <br/><br/>           
