@@ -8,39 +8,47 @@ import React from 'react';
 
 function Websites(props) {
     return(
-      <div className=''>
-        <div className="allcont">
+        <div className="website">
     <h1>
         Websites And Features
     </h1>
             
             <a className='img' href="https://sampfitness.netlify.app">
-                <img alt='img' src={samp} />
+                <img alt='imgw' src={samp} />
             </a>
+            <p>
+                
+            </p>
             
             <a className='img' href="https://brushcutz.netlify.app">
-                <img alt='img' src={barber} />
+                <img alt='imgw' src={barber} />
             </a>
+            <p>
+
+            </p>
 
             <a className='img' href="https://humbleme.netlify.app">
-                <img alt='img' src={humble} />
+                <img alt='imgw' src={humble} />
             </a>
+            <p>
+
+            </p>
 
             <a className='img' href="https://ekustoms.adaptable.app/">
-                <img alt='img' src={e} />
+                <img alt='imgw' src={e} />
             </a>
+            <p>
+                
+            </p>
 
 
             <a className='img' href="https://humbleme.netlify.app">
-                <img alt='img' src={colty} />
+                <img alt='imgw' src={colty} />
             </a>
-
-        
-        
-        
+            <p>
+                
+            </p>
     </div>
-</div>
-
     );
 }
 
