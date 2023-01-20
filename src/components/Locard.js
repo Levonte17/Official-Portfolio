@@ -5,7 +5,6 @@ function Locard(props) {
   return (
     <div className='locard'>
       <br/>
-      <br/>
       <h1>
         Logos & Cards  
       </h1>
@@ -16,7 +15,7 @@ function Locard(props) {
       />
       <div className='sidebysideimgs'>
     <div className='sidebysidepink'>
-        <h1>
+        <h2>
             Custom Buisiness Logo
             <p>
               - Create your own logo to fit your 
@@ -29,11 +28,11 @@ function Locard(props) {
               <br/>
               - FREE consultation to get new ideas and advice
             </p>
-        </h1>
+        </h2>
 
         <br/>
 
-        <h1>
+        <h2>
             Custom Business Cards
             <p>
               - Customize your business cards to fit your
@@ -49,7 +48,7 @@ function Locard(props) {
               <br/>
               - FREE consultation to get new ideas and advice
             </p>
-        </h1>
+        </h2>
 
     </div>
     </div>

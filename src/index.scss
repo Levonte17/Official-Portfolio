@@ -296,17 +296,30 @@ a{
     padding-top: 2%;
   }
 }
+////////// INSP //////////////////////////////////
+////////// INSP //////////////////////////////////
+.podcast{
+img{
+  width: 35%;
+}
+}
 ////////// LOCARD //////////////////////////////////
 ////////// LOCARD //////////////////////////////////
 .locard{
   .webimg{
     width: 100%;
   }
-  
+  p{
+    font-size: large;
+  }
   h1{
     color: tan;
     text-shadow: 3px 3px 3px rgb(124, 86, 35);
     font-size: 4rem;
+  }
+  h2{
+    color: rgb(124, 86, 35);
+    font-size: 2rem;
   }
 }
 //////////////////////// SideBySideImgs ///////////////////////
@@ -314,7 +327,7 @@ a{
   display: flex;
 width: 100%;
   p{
-    font-size: x-large;
+    font-size: large;
     color: rgb(124, 86, 35);
     margin-left: 1%;
     

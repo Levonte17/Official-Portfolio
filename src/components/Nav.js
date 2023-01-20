@@ -17,16 +17,16 @@ function Nav(props) {
                 <div>WEBSITES</div>
             </Link>
             
-            <Link to='/blogs' className="nav1">
+            <Link to='/spotlight' className="nav1">
                 <div>STORIES</div>
             </Link>
 
-            <Link to='/essentials' className="nav1">
+            <Link to='/business' className="nav1">
                 <div>BUSINESS</div>
             </Link>
             
             
-            <Link to='/blogs' className="nav1">
+            <Link to='/learn' className="nav1">
                 <div>LEARN</div>
             </Link>
 

@@ -43,16 +43,16 @@ function Websites(props) {
     <img alt='imgw' src={barber} />
 
     <h2>
-        BRUSHCUTZ BARBERSHOP 
+        BRUSHCUTZ BARBER SHOP 
     </h2>
 
     <p>
-        I collaborated with the owner on SAMP Fitness 
-        to provide graphic designs to support his brand vision 
-        and personality.
-        This website is easy to join by simply loging in with
-        your preexisting google account to ensure extra security
-        and privacy of your data.
+        I collaborated with the owner on BrushCutz Barber Shop 
+        to provide Graphic motion designs to attract new clients
+        and brand strengthening. Users can easily login with
+        their google account to save time. This website is
+        installed with firewalls to allow only logged in users 
+        to access sign up form.
     </p>
                <a className='img' href="https://brushcutz.netlify.app">
                 <button> 
@@ -72,12 +72,10 @@ function Websites(props) {
     </h2>
 
     <p>
-        I collaborated with the owner on SAMP Fitness 
-        to provide graphic designs to support his brand vision 
-        and personality.
-        This website is easy to join by simply loging in with
-        your preexisting google account to ensure extra security
-        and privacy of your data.
+        I collaborated with the owner of E-kustoms LLC
+        to make his vision come alive of displaying high quality
+        artwork. Customers can easily contact the owner to place 
+        custom orders within just clicks.
     </p>
         <a className='img' href="https://ekustoms.adaptable.app/">
             <button> 
@@ -98,12 +96,10 @@ function Websites(props) {
     </h1>
 
     <p>
-        I collaborated with the owner on SAMP Fitness 
-        to provide graphic designs to support his brand vision 
-        and personality.
-        This website is easy to join by simply loging in with
-        your preexisting google account to ensure extra security
-        and privacy of your data.
+        I collaborated with Colty Temple NCOC 
+        to provide a web pressence to welcome new visitors. Logged
+        in church members have the ability to upload and 
+        display announcements to ensure privacy.
     </p>
                <a className='img' href="https://coltytemple.netlify.app">
                 <button> 
