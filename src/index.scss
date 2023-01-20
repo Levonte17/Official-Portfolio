@@ -224,9 +224,31 @@ a{
 ////////// WEBSITE //////////////////////////////////
 ////////// WEBSITE //////////////////////////////////
 .website{
+  font-family: 'Anton', sans-serif;
   width: 100%;
-  img{
+  color: rgb(124, 86, 35);
+  h2{
+    color: rgb(124, 86, 35);
+    font-size: 3rem;
+  }
+  h1{
+    color: rgb(124, 86, 35);
+    font-size: 4rem;
+    
+  }
+  p{
     width: 50%;
+    padding-left: 25%;  
+    font-size: x-large;
+  }
+  img{
+    width: 70%;
+  }
+  button{
+    background-color:white;
+    color: rgb(124, 86, 35);
+    font-size: x-large;
+    padding: 1% 1% 1%;
   }
 }
 ////////// WEB //////////////////////////////////
@@ -496,6 +518,11 @@ Link{
   width: 100%;
   img{
     width: 100%;
+  }
+  p{
+    width: 75%;
+    padding-left: 12%;  
+    font-size: x-large;
   }
 }
   //////////////////// HR //////////////////////////////////////////
