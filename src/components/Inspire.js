@@ -1,5 +1,7 @@
 import React from 'react'
 import inspire from '../assets/inspire.png';
+import me from '../assets/me.png'
+
 
 function Inspire(props) {
   return (
@@ -12,7 +14,9 @@ function Inspire(props) {
         src={inspire} 
         alt="inspire"
     />
-      
+    <br/>
+    <img  className='insp' src={ me } alt='me' />
+
 
     </div>
   )

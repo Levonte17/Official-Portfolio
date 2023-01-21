@@ -4,8 +4,14 @@ function Learn(props) {
   return (
     <div className='learn'>
         <h1>
-        Classes Will Be Uploaded Here Soon
+        CodeWithLarry.com Coming Soon
       </h1>
+      <p>
+        Introduce yourself to software building
+        and ethical hacking (cybersecurity) skills for 
+        entry level jobs, certifications or assistance with
+        switching careers.   
+      </p>
     </div>
   )
 }

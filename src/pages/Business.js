@@ -15,7 +15,7 @@ function Business(props) {
       </h1>
       <p> 
 
-Create a business email (yourName@yourWebsite.com) to match your 
+Create a business email YourName@Website.com to match your 
 domain name and easily access your site analytics to assist in 
 growing your brand and building the most effective business 
 solutions for your brand. 
