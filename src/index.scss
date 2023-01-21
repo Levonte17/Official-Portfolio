@@ -321,7 +321,7 @@ img{
 ////////// BUSINESS //////////////////////////////////
 .business{
   h1{
-    color: white;
+    color: tan;
     text-shadow: 3px 3px 3px rgb(124, 86, 35);
     font-size: 4rem;
     padding-top: 2%;
@@ -335,7 +335,17 @@ img{
     padding: 5% 5% 5%;
   }
   img{
-    width: 25%;
+    width: 30%;
+  }
+  .webimg{
+    width: 75%;
+  }
+  button{
+    background-color:white;
+    color: rgb(124, 86, 35);
+    font-size: x-large;
+    padding: 1% 1% 1%;
+    border-color: rgb(124, 86, 35) ;
   }
 }
 ////////// LOCARD //////////////////////////////////
