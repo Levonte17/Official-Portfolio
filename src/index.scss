@@ -299,9 +299,44 @@ a{
 ////////// INSP //////////////////////////////////
 ////////// INSP //////////////////////////////////
 .podcast{
+  h1{
+    color: white;
+    text-shadow: 3px 3px 3px rgb(124, 86, 35);
+    font-size: 4rem;
+    padding-top: 2%;
+  }
+  p{
+    margin-left: 7%;
+    color:rgb(124, 86, 35);
+    font-size: 2rem;
+    font-weight: 100;
+    width: 75%;
+    padding: 5% 5% 5%;
+  }
 img{
   width: 35%;
 }
+}
+////////// BUSINESS //////////////////////////////////
+////////// BUSINESS //////////////////////////////////
+.business{
+  h1{
+    color: white;
+    text-shadow: 3px 3px 3px rgb(124, 86, 35);
+    font-size: 4rem;
+    padding-top: 2%;
+  }
+  p{
+    margin-left: 7%;
+    color:rgb(124, 86, 35);
+    font-size: 2rem;
+    font-weight: 100;
+    width: 75%;
+    padding: 5% 5% 5%;
+  }
+  img{
+    width: 25%;
+  }
 }
 ////////// LOCARD //////////////////////////////////
 ////////// LOCARD //////////////////////////////////
@@ -357,8 +392,9 @@ width: 100%;
   .sidebyside2{
   width: 50%;
 }
-
 }
+
+
 ////////// INSPIRE //////////////////////////////////
 ////////// INSPIRE //////////////////////////////////
 .inspire{
