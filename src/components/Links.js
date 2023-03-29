@@ -22,12 +22,12 @@ function Links(props) {
         View Blogs
     </h2>
 </Link>
-<Link to='/people'className='link'>
+<Link to='/about'className='link'>
     <h2> 
         About Us
     </h2>
 </Link>
-<Link to='/about-me' className='link'>
+<Link to='/staff' className='link'>
     <h2> 
         Our Staff
     </h2>
