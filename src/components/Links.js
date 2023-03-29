@@ -17,7 +17,7 @@ function Links(props) {
     <b>CLICK ANY LINK TO GET STARTED</b>
 </p>
 <div className="cred">
-<Link to='/athletes'className='link'>
+<Link to='/blog'className='link'>
     <h2> 
         View Blogs
     </h2>
