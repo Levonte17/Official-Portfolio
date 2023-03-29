@@ -1,36 +1,33 @@
 body {
   margin: 0;
   border: 0;
+  font-size: x-large;
   text-align: center;
   box-sizing: border-box;
-  background-image: url(../src/assets/bgall.png);
+  background-color: white;
   p{
     font-family: 'Anton', sans-serif;
-
+    
   }
 }
 //////////// NAV //////////////////////////////////
 //////////// NAV //////////////////////////////////
-.nav{
+.Nav{
   display: flex;
-  width: 100%;
-  background-color: rgb(124, 86, 35);
-}
-.nav:hover
-a:hover{
-  text-shadow: 15px 15px 15px goldenrod;
-  text-shadow: 20% 20% 20% goldenrod;
-  color: goldenrod;
-  
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  .Navs{
+    color:rgb(124, 86, 35);
+    font-size: x-large;
+    font-family: 'Anton', sans-serif;
+      
+    
+  }  
 }
 
-.nav a{
-  color: white;  
-  font-size: x-large;
-  text-decoration: none;
-  margin-left: 1%;
-  padding-right: 1%;
-}
+
 
 //////////// HEADER //////////////////////////////////
 //////////// HEADER //////////////////////////////////
@@ -43,38 +40,31 @@ a:hover{
   background-size: cover;
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: auto;
+  height: 100vh;
+  text-align: left;
 }
 .header h2{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 100;
   @import url('https://fonts.google.com/specimen/Italiana');
-      font-family: 'Italiana';
+  font-family: 'Italiana';
   color:white;
   text-shadow: 3px 3px 3px tan;
   margin-top: 0;
-  margin-left: 1%;
   
 }
 .header h1{
   margin-left: 1%;
   font-weight: 100;
+  color:rgb(124, 86, 35);
   font-family: 'Italiana';
 
-  font-size: 6rem;
-  color:rgb(124, 86, 35);
+  font-size: 5rem;
     text-shadow: 5px 5px 5px white;
     margin-top: 0;
-    padding-top: 7%;
+    padding-top: 9%;
   }
-  strong{
-    font-weight: 100;
-    font-family: 'Italiana';
-    font-size: 4rem;
-    color:rgb(124, 86, 35);
-    text-shadow: 3px 3px 3px tan;
-  }
+  
   .header2 a{
     text-decoration: none;
     justify-content: center;
@@ -82,7 +72,6 @@ a:hover{
     color: white;
   }
   .header h2{
-    padding-bottom: 15%;
     font-size: 3rem;
   }
   .header2{
@@ -426,6 +415,46 @@ width: 100%;
 }
 }
 
+///////////WHY////////////
+///////////WHY////////////
+.whyus{
+  color: rgb(124, 86, 35);
+  font-size: 3rem;
+  p{
+    width: 75%;
+    padding-left: 12%;
+    font-size: xx-large;
+  }
+  .imgs{
+    height: 25.5rem;
+    width: 25.5rem;
+    border-radius: 50%;
+    padding-left: 2%;
+  }
+}
+
+///////////LINKS////////////
+///////////LINKS////////////
+.why{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  color: white;
+  background-image: url(../src/assets/whybg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+height: 100vh;
+ 
+  p{
+    font-size: 2rem;
+    color: white;
+    width: 50%;
+  }
+  .link{
+    color: white;
+  }
+}
 
 ////////// INSPIRE //////////////////////////////////
 ////////// INSPIRE //////////////////////////////////
@@ -612,6 +641,39 @@ margin-left: 12%;
 }
 
 }
+
+///////////WHY////////////
+///////////WHY////////////
+.whyus{
+  color: rgb(124, 86, 35);
+  font-size: 1rem;
+  p{
+    width: 75%;
+    padding-left: 12%;
+    font-size: x-large;
+  }
+}
+
+///////////LINKS////////////
+///////////LINKS////////////
+.why{
+  width: 100%;
+  display: block;
+  justify-content: none;
+  align-items: center;
+  padding: 0;
+  color: grey;
+  background-color: black;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  h1{
+    font-size: 3rem;
+  }  
+  p{
+    font-size: 2rem;
+    width: 95%;
+  }
+}
+
 ////////// BUSINESS //////////////////////////////////
 ////////// BUSINESS //////////////////////////////////
 .business{

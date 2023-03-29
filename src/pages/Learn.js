@@ -4,7 +4,7 @@ function Learn(props) {
   return (
     <div className='learn'>
         <h1>
-        CodeWithLarry.com Coming Soon
+        codewithlarry.com Coming Soon
       </h1>
       <p>
         Introduce yourself to software building

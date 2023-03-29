@@ -5,26 +5,12 @@ function Header(props) {
 <div className='header'> 
 
 
-<h1> 
-    Digital Investors Hub 
-</h1>
+<h1> Digital Investors Hub 
 <h2> 
-    #1 Source For
-<br/>
-<br/>
-
-     <strong> 
-        ENTREPRENEURS 
-     </strong> 
-     <br/>
-     DIVERSE LEARNING 
-     <br/>
-     and 
-     <br/>
-     <strong>
-        START UP BUSINESSES
-    </strong>
+    Serving Entrepreneurs, Startups,
+    <br/> and Investors
 </h2> 
+</h1>
 </div>
 
     )
