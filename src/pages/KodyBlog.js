@@ -92,9 +92,6 @@ TEAM THAT IS WILLING TO WORK AS HARD AS I DO OR HARDER.
 
 </p>
 
-
-    </div>
-    <div className='used'>
 <img 
   src={otcb} 
   alt='otcb'
