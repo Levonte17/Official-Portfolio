@@ -16,6 +16,7 @@ function Nav(props) {
                 <div className='Navs'>
                 <a href='https://www.youtube.com/channel/UCu0gSo_y1R6tbXWK94ktP8Q' className='Navs'>
                 <FiYoutube />
+                <br/>
                 <b>YouTube</b>
             </a>
                 </div>
@@ -23,6 +24,7 @@ function Nav(props) {
                     <a href='https://www.instagram.com/mr_lockdown8/'
                         className='Navs'>
                         <FiInstagram/> 
+                        <br/>
                         <b>The.Digital.Doctor</b>
                     </a> 
                 </div>
