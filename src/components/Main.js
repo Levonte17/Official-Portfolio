@@ -5,6 +5,7 @@ import{ Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Blog from '../pages/Blog';
 import KodyBlog from '../pages/KodyBlog';
+import IsoBlog from '../pages/IsoBlog';
 import About from '../pages/About';
 import Staff from '../pages/Staff';
 
@@ -15,6 +16,7 @@ return(
 <Routes>
      <Route path='/' element={<Home/>}/>
      <Route path='/blog' element={<Blog/>}/>
+     <Route path='/isoblog' element={<IsoBlog/>}/>
      <Route path='/kodyblog' element={<KodyBlog/>}/>
      <Route path='/staff' element={<Staff/>}/>
      <Route path='/about' element={<About/>}/>
