@@ -1,4 +1,5 @@
 import React from 'react'
+import abp from '../assets/abp.png'
 
 function About(props) {
   return (
@@ -14,6 +15,11 @@ function About(props) {
         Our goal is to help our clients reach their goals and maximize their potential. 
         We look forward to working with you and helping you reach your business goals.
         </p>
+        <img 
+  src={abp} 
+  alt='abp'
+  className="abp"
+/>
     </div>
   )
 }
