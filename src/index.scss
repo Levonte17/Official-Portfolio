@@ -649,15 +649,16 @@ font-size: x-large;
 width: 75%;
 margin-left: 12%;
 }
-
 }
 
 ///////////WHY////////////
 ///////////WHY////////////
 .whyus{
   color: rgb(124, 86, 35);
-  font-size: 1rem;
-  p{
+h1{
+  font-size: 3rem;
+} 
+ p{
     width: 75%;
     padding-left: 12%;
     font-size: x-large;
@@ -671,6 +672,9 @@ margin-left: 12%;
         .bloghead{
           width: 100%;
           text-align: center;
+        }
+        .post{
+          width: 100%;
         }
       }
     .use{
@@ -686,6 +690,7 @@ margin-left: 12%;
       .flex{
         display: block;
       }
+      
 
       ///////////////BLOGS ////////////////////////
     ///////////////BLOGS ////////////////////////
@@ -698,6 +703,10 @@ margin-left: 12%;
       font-size: 3rem;
       color: rgb(124, 86, 35);
     }
+    h2{
+      font-size: x-large;
+text-decoration: none;
+    }
     p{
       font-size: 2rem;
       color: rgb(124, 86, 35);
@@ -705,8 +714,8 @@ margin-left: 12%;
       padding-left: 12%;
     }
     img{
-      width: 30%;
-      height: 30%;
+      width: 100%;
+      height: 100%;
     }
   }
 ///////////LINKS////////////
@@ -721,68 +730,21 @@ margin-left: 12%;
   background-color: black;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   h1{
-    font-size: x-large;
+    font-size: 2rem;
+  }  
+  h2{
+    font-size: xx-large;
   }  
   p{
-    font-size: large;
+    font-size: xx-large;
     width: 95%;
   }
+.link{
+
+}
 }
 
-////////// BUSINESS //////////////////////////////////
-////////// BUSINESS //////////////////////////////////
-.business{
-  h1{
-    color: tan;
-    text-shadow: 3px 3px 3px rgb(124, 86, 35);
-    font-size: 3rem;
-    padding-top: 2%;
-  }
-  p{
-    margin-left: 7%;
-    color:rgb(124, 86, 35);
-    font-size: x-large;
-    font-weight: 100;
-    width: 75%;
-    padding: 5% 5% 5%;
-  }
-  img{
-    width: 30%;
-  }
-  .webimg{
-    width: 75%;
-  }
-  button{
-    background-color:white;
-    color: rgb(124, 86, 35);
-    font-size: x-large;
-    padding: 1% 1% 1%;
-    border-color: rgb(124, 86, 35) ;
-  }
-}
-  ////////// WEBSITE //////////////////////////////////
-////////// WEBSITE //////////////////////////////////
-.website{
-  width: 100%;
-  img{
-    width: 100%;
-  }
-  p{
-    width: 95%;
-    padding-left: 2%;  
-    font-size: x-large;
-  }
-  h2{
-    color: rgb(124, 86, 35);
-    font-size: 2rem;
-  }
-  h1{
-    color: rgb(124, 86, 35);
-    font-size: 3rem;
-    
-  }
-  
-}
+
   //////////////////// HR //////////////////////////////////////////
   ////////////////// HR //////////////////////////////////////////
   .hr1{
@@ -790,139 +752,7 @@ margin-left: 12%;
     padding-right: 0px;
     background-color: tan;
   }
-  ////////// LOCARD //////////////////////////////////
-  //////////////////////// SideBySideImgs ///////////////////////
-  .sidebysideimgs{
-    display: block;
-    width: 100%;
-    p{
-      font-size: xx-large;
-      color: rgb(124, 86, 35);
-      margin-left: 1%;
-      text-shadow: 0px 0px 0px tan;
-      
-    }
-    
-  }
-  .sidebysidepink{
-    display: block;
-    width: 100%;
-    height: 100%;
-    
-    .sidebysideimg{
-      width: 100%;
-    } 
-    h1{
-      text-shadow: 0px 0px 0px rgb(124, 86, 35);;
-      text-align: center;
-      padding-top: 1%;
-      width: 100%;
-      justify-content: center;
-      font-size: 3rem;
-      color: rgb(124, 86, 35);
-      margin-left: 1%;
-      margin-right: 2%;
-    
-    }
-    .sidebyside2{
-    width: 100%;
-  }
   
-  }
-  ////////// LOCARD //////////////////////////////////
-  .locard{
-    .webimg{
-      width: 100%;
-    }
-    
-    h1{
-      color: rgb(124, 86, 35);;
-      text-shadow: 0px 0px 0px rgb(124, 86, 35);
-      font-size: 3rem;
-    }
-  }
-  ////////// INSPIRE //////////////////////////////////
-  ////////// INSPIRE //////////////////////////////////
-  .inspire{
-    background-color:rgba(73, 44, 4, 0.759);
-    ;
-    h1{
-      color: tan;
-      text-shadow: 3px 3px 3px rgb(124, 86, 35);
-      font-size: 2rem;
-  
-    }
-    img{
-      padding-bottom: 15%;
-    }
-  }
-  ////////// INSP //////////////////////////////////
-////////// INSP //////////////////////////////////
-.podcast{
-  h1{
-    color: white;
-    text-shadow: 3px 3px 3px rgb(124, 86, 35);
-    font-size: 2rem;
-    padding-top: 2%;
-  }
-  p{
-    margin-left: 7%;
-    color:rgb(124, 86, 35);
-    font-size: x-large;
-    font-weight: 100;
-    width: 75%;
-    padding: 5% 5% 5%;
-  }
-img{
-  width: 35%;
-}
-}
-  //////////////////// CREATE //////////////////////////////////////////
-  ////////////////// CREATE IMG //////////////////////////////////////////
-  
-  .create{
-    display: block;
-    text-align: left;
-    width: 75%;
-  
-    .creimg{
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-  }
-  .create1{
-    h2{
-      font-size: 2rem;
-      font-size: 2rem;
-      color: rgb(124, 86, 35);
-      margin-left: 0;
-      text-align: center;
-  
-  
-    }
-    p{
-      font-size: x-large;
-      color: rgb(124, 86, 35);
-      margin-left: 1%;
-  
-    }
-  
-  }
-  
-  }
-  strong{
-    color: rgb(124, 86, 35);
-      font-size: 2rem;
-  }
-  .header{
-    h2{
-      font-size: 2rem;
-
-    }
-    h1{
-      font-size: 3rem;
-    }
-  }
 
 //////////// HEADER //////////////////////////////////
 
