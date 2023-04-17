@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import Links from '../components/Links';
+import Reviews from '../components/Reviews';
 import Why from '../components/Why';
 //import { Navigate } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ function Home(props) {
       <Header />
       <Links />
       <Why />
+      <Reviews />
     </div>
     )
 };
