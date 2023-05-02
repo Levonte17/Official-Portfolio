@@ -15,10 +15,9 @@ function Why(props) {
         We provide comprehensive business consulting services to help you reach your goals. 
         Our team of experienced professionals can help you develop a strategic plan, 
         identify opportunities for growth, and create a roadmap for success. 
-        We also offer a wide range of services, including financial analysis, 
-        market research, and operational optimization.
-         With our expertise and guidance, you can be sure that your business will reach 
-        its full potential.
+        We also offer a wide range of services, including web development, Search Engine Directories, 
+        market research, and operational optimization. Our websites are developed with SEO 
+        (Search Engine Optimization) in consideration to assure your business reach goals.
         </p>
     </div>
   )
