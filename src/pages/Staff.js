@@ -4,8 +4,6 @@ function Staff(props) {
   return (
     <div className='staff'>
         <h1> OUR STAFF </h1>
-
-        
       
     </div>
   )

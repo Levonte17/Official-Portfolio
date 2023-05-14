@@ -7,7 +7,7 @@ function Links(props) {
 
 
 <p> 
-    We offer 24/7 business consultant services to help companies reach their goals.
+    We offer 24/7 business consultant/ coaching services to help companies reach their goals.
     We specialize in developing strategies to increase efficiency, reduce costs, and maximize profits. 
     We also have a proven track record of success and am confident I can help your business reach its goals.
   
@@ -17,17 +17,17 @@ function Links(props) {
     <b>CLICK ANY LINK TO GET STARTED</b>
 </p>
 <div className="cred">
-<Link to='/blog'className='link'>
+<Link to='Portfolio'className='link'>
     <h2> 
-        View Blogs
+        Portfolio
     </h2>
 </Link>
-<Link to='/about'className='link'>
+<Link to='About'className='link'>
     <h2> 
         About Us
     </h2>
 </Link>
-<Link to='/staff' className='link'>
+<Link to='Staff' className='link'>
     <h2> 
         Our Staff
     </h2>

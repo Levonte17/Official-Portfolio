@@ -21,11 +21,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: large;
   padding: 20px 80px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   .Navs{
     color:rgb(124, 86, 35);
-    font-size: x-large;
+    font-size: large;
     font-family: 'Anton', sans-serif;
       
     
@@ -293,6 +294,38 @@ width: 100%;
   }
 }
 
+///////////PORTFOLIO////////////
+///////////PORTFOLIO////////////
+    .portfolio{
+      font-family: 'Anton', sans-serif;
+      h2{
+        font-size: x-large;
+        font-weight: 100;
+      }
+      h1{
+        font-size: 3rem;
+        background-color: tan;
+      
+      }
+    }
+    ///////////PORTFOLIO////////////
+    ///////////PORTFOLIO////////////
+    .portfolio{
+      font-family: 'Anton', sans-serif;
+      text-align: center;
+      h1{
+        font-size: 3rem;
+      
+      }
+      h2{
+        font-size: x-large;
+        font-weight: 100;
+      }
+      .portfolioimg{
+        width: 30%;
+        padding-left: 1%;
+      }
+    }
 ///////////LINKS////////////
 ///////////LINKS////////////
 .why{
@@ -536,7 +569,38 @@ h1{
       .flex{
         display: block;
       }
+      ///////////PORTFOLIO////////////
+///////////PORTFOLIO////////////
+    .portfolio{
+      font-family: 'Anton', sans-serif;
+      h2{
+        font-size: x-large;
+        font-weight: 100;
+      }
+      h1{
+        font-size: 3rem;
+        background-color: tan;
       
+      }
+    }
+    ///////////PORTFOLIO////////////
+    ///////////PORTFOLIO////////////
+    .portfolio{
+      font-family: 'Anton', sans-serif;
+      text-align: center;
+      h1{
+        font-size: 2rem;
+      
+      }
+      h2{
+        font-size: x-large;
+        font-weight: 100;
+      }
+      .portfolioimg{
+        width: 100%;
+        padding-left: 0;
+      }
+    }
 
       ///////////////BLOGS ////////////////////////
     ///////////////BLOGS ////////////////////////
